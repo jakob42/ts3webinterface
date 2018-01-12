@@ -17,7 +17,7 @@ if($sid===false OR empty($sid)) { echo "<meta http-equiv=\"refresh\" content=\"0
 
 $error='';
 $noerror='';
-$files='';
+$files=array();
 
 if(isset($_POST['hostbackup']))
 		{
