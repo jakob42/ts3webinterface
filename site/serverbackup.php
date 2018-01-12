@@ -26,7 +26,7 @@ if(!is_dir("site/backups/server/hostbackups/".$_SESSION['server_ip'].'-'.$_SESSI
 if($hoststatus===false) { echo $lang['nohoster']; } else { 
 $error = '';
 $noerror = '';
-$files='';
+$files=array();
 $serverlist=$ts3->serverList();
 
 if(isset($_POST['hostbackup']))
