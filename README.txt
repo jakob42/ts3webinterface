@@ -2,7 +2,7 @@ Teamspeak 3 Webinterface
 
 Webinterface to manage TS3 Server.
 
-Latest Version: 3.4.2
+Latest Version: 3.4.3.1
 
 
 
