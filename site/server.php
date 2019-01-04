@@ -156,8 +156,8 @@ if(isset($_POST['massaction']))
 	}
 $serverlist=$ts3->getElement('data', $ts3->serverList());
 
-$allslots='';
-$allusedslots='';
+$allslots=0;
+$allusedslots=0;
 if(!empty($serverlist))
 	{
 	foreach($serverlist AS $key => $value)
